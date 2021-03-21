@@ -82,7 +82,7 @@ p {
 }
 #header .header {
   min-height: 8vh;
-  background-color: rgba(31, 30, 30, 0.24);
+  background-color: #0d173e;
   transition: 0.3s ease background-color;
 }
 #header .nav-bar {
@@ -97,7 +97,7 @@ p {
 #header .nav-list ul {
   list-style: none;
   position: absolute;
-  background-color: rgb(31, 30, 30);
+  background-color: #0d173e;
   width: 100vw;
   height: 100vh;
   left: 100%;
@@ -129,7 +129,7 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
-  color: rgba(240, 248, 255, 0.021);
+  color: #0d173e;
   font-size: 13rem;
   letter-spacing: 50px;
   z-index: -1;
@@ -291,7 +291,7 @@ p {
   flex-direction: column;
   padding: 30px;
   border-radius: 10px;
-  background-image: url(./img/img-1.png);
+  background-image: url(./img/skin-gym-tools.jpg);
   background-size: cover;
   margin: 10px 5%;
   position: relative;
@@ -305,7 +305,7 @@ p {
   top: 0;
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  background-image: linear-gradient(60deg, #0d173e 0%, #210136 100%);
   opacity: 0.9;
   z-index: -1;
 }
@@ -492,7 +492,7 @@ p {
 
 /* Footer */
 #footer {
-  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  background-image: linear-gradient(60deg, #0d173e 0%, #0d173e 100%);
 }
 #footer .footer {
   min-height: 200px;
